@@ -1,2 +1,2 @@
-# soturnus-P1
+# Soturnus-P1
 HTML and CSS Essentials Portfolio Project
