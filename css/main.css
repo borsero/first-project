@@ -131,6 +131,10 @@ h2 {
     text-align: center;
 }
 
+.stats a {
+    color: #a13030;
+}
+
 .platform-logos {
     text-align: center;
     display: grid;
