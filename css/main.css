@@ -16,14 +16,23 @@ body {
     font-family: 'Montserrat';
 }
 
+.main-content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-content > * {
+    border: 1px solid red;
+    padding: 10px;
+}
+
 nav {
     scroll-behavior: smooth;
 }
 
-.hero {
-    background: black;
-    /* padding: 1em; */
-}
+/* .hero {
+    padding: 1em;
+} */
 
 a {
     color: white;
@@ -44,11 +53,6 @@ ul {
     z-index: -2;
 } */
 
-.wrapper {
-    padding: 1.5em;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 header {
     display: flex;
@@ -76,12 +80,10 @@ video {
     height: 600px;
     width: 100%;
     object-fit: cover;
-    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1;
 }
 
 /* video {
@@ -135,11 +137,6 @@ h2 {
     justify-content: space-around;
 }
 
-.tour-dates {
-    margin: 0;
-    padding: 0;
-}
-
 #news {
     clear: left;
     height: 900px;
@@ -175,11 +172,11 @@ h2 {
     background-color: #a13030;
     color: #fafafa;
     display: block;
+    border: none;
 }
 
 footer {
     text-align: center;
-    margin-bottom: 100px;
 }
 
 /* @media (min-width: 1200px) {

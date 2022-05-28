@@ -11,98 +11,84 @@
 
 <body>
 
-    <div class="hero">
-        <div class="wrapper">
-            <header>
-                <a href="#" id="logo"><img src="./images/logo.svg"></a>
-                <video autoplay muted loop id="video">
-                    <source src="./video/Soturnus.mp4" type="video/mp4">
-                </video>
-
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#listeners">Music</a>
-                        </li>
-                    
-                        <li>
-                            <a href="#tour">Tour</a>
-                        </li>
-                        <li>
-                            <a href="#news">News</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+    
+    <div class="main-content">
+        <header>
+            <a href="#" id="logo"><img src="./images/logo.svg"></a>
+        
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#listeners">Music</a>
+                    </li>
+                    <li>
+                        <a href="#tour">Tour</a>
+                    </li>
+                    <li>
+                        <a href="#news">News</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <div class="hero">
+            <video autoplay muted loop id="video">
+                <source src="./video/Soturnus.mp4" type="video/mp4">
+            </video>
         </div>
-
-    </div>
-    <div id="listeners">
-        <div class="wrapper">
-            <h2>All Platforms</h2>
-            <ul class="stats">
-            
-                <li>
-                    <strong>53K <a href="https://www.spotify.com/" target="_blank" rel="noopener" 
-                        aria-label="Listen on Spotify (open in a new tab)"><i class="fa-brands fa-spotify" alt="Spotify Logo"></i></strong></a>
-                    <span>Spotify Listeners</span>
-                </li>
-                <li>
-                    <strong>21K <a href="https://music.apple.com/" target="_blank" rel="noopener" 
-                        aria-label="Listen on Apple Music (open in a new tab)"><i class="fa-brands fa-itunes" alt="Apple Music Logo"></i></strong></a>
-                    <span>Apple Music Listeners</span>
-                </li>
-                <li>
-                    <strong>12K <a href="https://www.deezer.com/" target="_blank" rel="noopener" 
-                        aria-label="Listen on Deezer (open in a new tab)"><i class="fa-brands fa-deezer" alt="Deezer Logo"></i></strong></a>
-                    <span>Deezer Listeners</span>
-                </li>
-                <li>
-                    <strong>10K <a href="https://music.youtube.com/" target="_blank" rel="noopener" 
-                        aria-label="Listen on YouTube Music (open in a new tab)"><i class="fa-brands fa-youtube" alt="Youtube Logo"></i></strong></a>
-                    <span>YouTube Music Listeners</span>
-                </li>
-            </ul>
+        <div id="listeners">
+                <h2>All Platforms</h2>
+                <ul class="stats">
+                    <li>
+                        <strong>53K <a href="https://www.spotify.com/" target="_blank" rel="noopener"
+                                aria-label="Listen on Spotify (open in a new tab)"><i class="fa-brands fa-spotify"
+                                    alt="Spotify Logo"></i></strong></a>
+                        <span>Spotify Listeners</span>
+                    </li>
+                    <li>
+                        <strong>21K <a href="https://music.apple.com/" target="_blank" rel="noopener"
+                                aria-label="Listen on Apple Music (open in a new tab)"><i class="fa-brands fa-itunes"
+                                    alt="Apple Music Logo"></i></strong></a>
+                        <span>Apple Music Listeners</span>
+                    </li>
+                    <li>
+                        <strong>12K <a href="https://www.deezer.com/" target="_blank" rel="noopener"
+                                aria-label="Listen on Deezer (open in a new tab)"><i class="fa-brands fa-deezer"
+                                    alt="Deezer Logo"></i></strong></a>
+                        <span>Deezer Listeners</span>
+                    </li>
+                    <li>
+                        <strong>10K <a href="https://music.youtube.com/" target="_blank" rel="noopener"
+                                aria-label="Listen on YouTube Music (open in a new tab)"><i class="fa-brands fa-youtube"
+                                    alt="Youtube Logo"></i></strong></a>
+                        <span>YouTube Music Listeners</span>
+                    </li>
+                </ul>
         </div>
-    </div>
-
-    <div id="tour">
-        <div class="wrapper">
-            <h2>Tour</h2>
-            <ul class="tour-dates">
-                <li>Sat, May 28 <strong>Festival BloodSt.</strong> Mossoro-Natal</li>
-                <li>Sun, May 29 <strong>Dark Fest</strong> Joao Pessoa-Paraiba</li>
-                <li>Fri,Jun 3 <strong>Metal PE</strong> Recife-Pernambuco</li>
-                <li>Sat, Jun 4 <strong>Chevrolet Hall</strong> Recife-Pernambuco</li>
-            </ul>
+        <div id="tour">
+                <h2>Tour</h2>
+                <ul class="tour-dates">
+                    <li>Sat, May 28 <strong>Festival BloodSt.</strong> Mossoro-Natal</li>
+                    <li>Sun, May 29 <strong>Dark Fest</strong> Joao Pessoa-Paraiba</li>
+                    <li>Fri,Jun 3 <strong>Metal PE</strong> Recife-Pernambuco</li>
+                    <li>Sat, Jun 4 <strong>Chevrolet Hall</strong> Recife-Pernambuco</li>
+                </ul>
         </div>
-    </div>
-
-    <div id="news">
-        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Newsletter!</h2>
-            <label for="fname">First Name</label>
-            <input class="text-input" type="text" id="fname" name="first_name" required>
-            <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
-            <input class="button" type="submit" value="Stay Dark!">
-        </form>
-    </div>
-    <!-- <div class="platform">
-        <div class="wrapper">
-            <h2>All Platforms</h2>
-            <ul class="platform-logos">
-                <li<i class="fa-brands fa-spotify" alt="Spotify Logo"></i></li>
-                    <li<i class="fa-brands fa-itunes" alt="Itunes Logo"></i></li>
-                        <li<i class="fa-brands fa-deezer" alt="Deezer Logo"></i></li>
-                            <li<i class="fa-brands fa-youtube" alt="Youtube Logo"></i></li>
-            </ul>
+        <div id="news">
+            <form class="signup-form" method="POST">
+                <h2>Newsletter!</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" type="text" id="fname" name="first_name" required>
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+                <input class="button" type="submit" value="Stay Dark!">
+            </form>
         </div>
-    </div> -->
-
-    <footer>
-        <p>© 2022 Soturnus</p>
-    </footer>
+        <footer>
+            <p>© 2022 Soturnus</p>
+        </footer>
+    </div>
     <!-- Font Awesome script -->
     <script src="https://kit.fontawesome.com/39f6f1fec3.js" crossorigin="anonymous"></script>
 </body>
