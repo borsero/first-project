@@ -5,11 +5,19 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background: black;
     color: white;
     font-family: 'Montserrat';
+}
+
+nav {
+    scroll-behavior: smooth;
 }
 
 .hero {
@@ -87,7 +95,7 @@ video {
     min-width: 50%;
 } */
 
-.listeners {
+#listeners {
     background-color: black;
 }
 
@@ -127,7 +135,12 @@ h2 {
     justify-content: space-around;
 }
 
-.news {
+.tour-dates {
+    margin: 0;
+    padding: 0;
+}
+
+#news {
     clear: left;
     height: 900px;
 }
@@ -136,6 +149,7 @@ h2 {
     margin: 150px 10% 0 0;
     color: #fff;
     max-width: 400px;
+    background-color: rgba(60, 60, 60, 0.6);
     position: absolute;
     left: 10%;
     padding: 30px;
