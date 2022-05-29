@@ -77,13 +77,9 @@ header li a {
 }
 
 video {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
 }
 
 /* video {
@@ -145,6 +141,11 @@ h2 {
     display: flex;
     justify-content: space-between;
     text-align: left;
+    padding: 20px 0 20px;
+}
+
+.tour-dates strong {
+    float: left;
 }
 
 
@@ -154,13 +155,13 @@ hr {
 
 #news {
     clear: left;
-    height: 900px;
+    height: 600px;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 50px 10% 0 3%;
     color: #fff;
-    max-width: 400px;
+    max-width: 600px;
     background-color: rgba(60, 60, 60, 0.6);
     position: absolute;
     left: 10%;
@@ -186,17 +187,26 @@ hr {
     font-size: 100%;
     background-color: #a13030;
     color: #fafafa;
-    display: block;
     border: none;
+}
+
+
+.social-networks {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.social-networks > li {
+    display: inline;
 }
 
 footer {
     text-align: center;
+    height: 150px;
 }
 
-/* @media (min-width: 1200px) {
-    .stats li {
-        border-right: 1px solid white;
-        padding-right: 5%;
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 26px;
     }
-} */
+}
