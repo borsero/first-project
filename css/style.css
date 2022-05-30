@@ -151,6 +151,9 @@ h2 {
     justify-content: space-between;
 }
 
+.tour-dates hr {
+    border: 1px solid gray;
+}
 
 hr {
     border: 1px solid #a13030;
