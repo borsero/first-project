@@ -145,13 +145,34 @@ h2 {
     padding: 20px 0 20px;
 }
 
-.tour-dates strong {
-    float: left;
+.tour-dates li strong {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
 }
 
 
 hr {
     border: 1px solid #a13030;
+}
+
+.responsive .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.responsive .box .img-pack {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    align-items: center;
+}
+
+.responsive .box .img-pack img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
 }
 
 #news {
@@ -160,15 +181,15 @@ hr {
 }
 
 .signup-form {
-    margin: 50px 10% 0 3%;
+    margin: 0;
     color: #fff;
-    max-width: 600px;
+    width: 100%;
     background-color: rgba(60, 60, 60, 0.6);
-    position: absolute;
-    left: 10%;
+    position: relative;
+    justify-content: space-between;
+    /* align-items: center; */
     padding: 30px;
 }
-
 
 .text-input {
     background: transparent;
@@ -203,11 +224,21 @@ hr {
 
 footer {
     text-align: center;
-    height: 150px;
+    height: 350px;
 }
 
 @media (min-width: 1200px) {
     h2 {
         font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .responsive .box {
+        flex-direction: column;
+    }
+
+    .responsive .box .img-pack {
+        width: 100%;
     }
 }
