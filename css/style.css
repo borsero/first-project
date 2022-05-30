@@ -178,10 +178,9 @@ hr {
     border-radius: 5px;
 }
 
-#news {
-    clear: left;
-    height: 600px;
-}
+/* #news {
+    
+} */
 
 .signup-form {
     margin: 0;
@@ -227,7 +226,6 @@ hr {
 
 footer {
     text-align: center;
-    height: 350px;
 }
 
 @media (min-width: 1200px) {
@@ -242,6 +240,17 @@ footer {
     }
 
     .responsive .box .img-pack {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    header {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo {
         width: 100%;
     }
 }
