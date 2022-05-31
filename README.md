@@ -4,7 +4,7 @@ Soturnus is a Doom/Death Metal band from João Pessoa, Brazil.
 
 On this webpage, users will be able to check for future concerts, links to all streaming platforms, sign up for newsletter.
 
-![image-20220531025217038](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531025217038.png)
+[image-20220531025217038]
 
 ## Features
 
