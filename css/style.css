@@ -146,6 +146,11 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
+iframe {
+    width: 100%;
+    border: 1px solid gray;
+}
   
 tr {
     border-top: 2px solid gray;
