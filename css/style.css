@@ -160,9 +160,13 @@ td {
 }
 
   
-/* td:nth-child(3) {
+td:nth-child(3) {
     text-align: end;
-} */
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
 
 hr {
     border: 1px solid #a13030;
