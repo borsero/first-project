@@ -31,7 +31,8 @@ On this webpage, users will be able to check for future concerts, links to all s
 
   - Band section is a basic description of the band's genre and the members name.
 
-    ![image-20220531041841771](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531041841771.png)
+    ![image-20220531041841771](https://user-images.githubusercontent.com/28759787/171095373-3b12c5a9-ccf5-4adc-b4cc-e3a657a9aa71.png)
+
 
 - **Streaming Platforms**
 
@@ -39,31 +40,32 @@ On this webpage, users will be able to check for future concerts, links to all s
 
   - All icons take the user to the streaming website.
 
-    ![image-20220531050023063](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531050023063.png)
+    ![image-20220531050023063](https://user-images.githubusercontent.com/28759787/171095417-55b37565-6043-412d-b8e3-8e248e590fc9.png)
 
 - **Tour**
 
   - The section where the user can find the date and local of the future shows.
 
-    ![image-20220531050147581](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531050147581.png)
+    ![image-20220531050147581](https://user-images.githubusercontent.com/28759787/171095819-ee50bed7-b670-4fc8-8c6a-8396088b53da.png)
 
 - **Gallery**
 
   - Some pictures of the latest shows
 
-    ![image-20220531050426825](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531050426825.png)
+    
+    ![image-20220531050426825](https://user-images.githubusercontent.com/28759787/171095850-ffa5658b-defd-41a8-9b45-67d3e4b31921.png)
 
 - Newsletter
 
   - Form containing name and email boxes.
 
-    ![image-20220531050645671](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531050645671.png)
+    ![image-20220531050645671](https://user-images.githubusercontent.com/28759787/171095914-fa1948da-2c46-42bf-86d3-9231070338c0.png)
 
 - Footer
 
   - Social media icons (Facebook, Twitter, YouTube Channel, Instagram) and copyright.
 
-    ![image-20220531050749995](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531050749995.png)
+    ![image-20220531050749995](https://user-images.githubusercontent.com/28759787/171095953-7cc27305-1503-49e9-b2d6-cd03297e1ae9.png)
 
 ## Validator Testing
 
@@ -72,7 +74,7 @@ On this webpage, users will be able to check for future concerts, links to all s
 - CSS
   - No errors or warnings found. (Validated on W3C)
 
-![image-20220531024614514](C:\Users\eduar\AppData\Roaming\Typora\typora-user-images\image-20220531024614514.png)
+![image-20220531024614514](https://user-images.githubusercontent.com/28759787/171095987-2c00c778-6d7a-405b-bc3b-df593a7e0cbb.png)
 
 --------------------------------------------------------------------------------------------*Lighthouse validation.*
 
